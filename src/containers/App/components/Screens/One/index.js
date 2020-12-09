@@ -22,9 +22,9 @@ const ScreenOne = ({ onChangeScreen }) => {
   return (
     <>
       <p>
-        An error has occured, we couldn't find the page you are looking for,{" "}
+        An error has occurred, we couldn't find the page you are looking for.{" "}
         <br />
-        would you like us to find your an insurance plan just for you?
+        Would you like us to find you an insurance plan?
       </p>
       <p style={{ marginBottom: "10px" }}>* Press 1 to continue</p>
       <p style={{ marginTop: "0" }}>* Press 2 to go back home</p>

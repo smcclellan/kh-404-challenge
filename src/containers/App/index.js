@@ -3,11 +3,13 @@ import React, { useState } from "react";
 import NavigationButtons from "./components/NavigationButtons";
 import ScreenOne from "./components/Screens/One";
 import ScreenTwo from "./components/Screens/Two";
+import ScreenThree from "./components/Screens/Three";
 import { SCREEN_KEYS } from "./constants";
 
 const screens = {
   [SCREEN_KEYS.SCREEN_ONE]: ScreenOne,
   [SCREEN_KEYS.SCREEN_TWO]: ScreenTwo,
+  [SCREEN_KEYS.SCREEN_THREE]: ScreenThree,
 };
 
 const useScreens = () => {
